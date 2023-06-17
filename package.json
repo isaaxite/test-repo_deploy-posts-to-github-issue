@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue"
+	}
+}

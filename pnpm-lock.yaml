@@ -1,0 +1,10 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  deploy-posts-to-github-issue:
+    specifier: link:../deploy-posts-to-github-issue
+    version: link:../deploy-posts-to-github-issue
