@@ -2,7 +2,7 @@ owner: isaaxite
 repo: test-repo_deploy-posts-to-github-issue
 token: $GITHUB_TOKEN
 post_dir: posts
-prefix: https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/blob/master/
+prefix: https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/blob/master/posts/
 asset_dir: '{filename}'
 types: 
   - image
