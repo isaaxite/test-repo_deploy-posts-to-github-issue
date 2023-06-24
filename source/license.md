@@ -1,11 +1,9 @@
 ---
 title: LICENSE的选择与生成
-date: 2023-05-30T16:50:28.000Z
+date: 2023-05-30 16:50:28
 tags:
-  - 开发标准
-  - LICENSE
-issue_number: 72
-
+- 开发标准
+- LICENSE
 ---
 
 # 前言
@@ -22,11 +20,13 @@ Open Source License 是指符合开源定义的许可证——简而言之，它
 
 对于大多数人来说，没必要花大把时间去写许可协议，选择一种比较流行的开源协议就足够了，省时省力，更便于自己作品的传播，于人于己都有利。
 
+
 # 常见的LICENSE
 
 世界上的开源许可证（Open Source License）大概有上百种，今天我们来介绍下几种我们常见的开源协议。大致有GPL、BSD、MIT、Mozilla、Apache和LGPL等。
 
 ![常见的开源许可证](license/da68b98e404578126b87c5afd9ba9bc3.png)
+
 
 # 选择LICENSE
 
@@ -47,22 +47,24 @@ MIT内容与三条款BSD许可协议（3-clause BSD license）内容颇为近似
 
 有许多团体均采用MIT许可证。例如著名的SSH连线软件PuTTY与X窗口系统。Expat、Mono开发平台库、Ruby on Rails、Lua、微软的Visual Studio Code源代码等等也都采用MIT许可协议。
 
+
 以下是 [MIT LICENSE的原本](https://www.mit-license.org/) 的内容：
 
-> Copyright \<YEAR> \<COPYRIGHT HOLDER>
+> Copyright \<YEAR\> \<COPYRIGHT HOLDER\>
 >
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 >
-> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 >
-> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 对于个人开发者来说，可能没有太关注许可，最初注重的只是代码的合法与传播。所以如果不想管或不知道该选那个许可，可直接使用MIT许可。
 
 以上引用的即是 MIT 的模板。需要修改的只有两个位置：
 
-1.  **YEAR**：是版权使用的年份。如果你在2015年申请版权（当你写作品时会自动发生），请在2015年提交。有些人喜欢设定一系列年份（即2015-2020年）——这没有必要。
-2.  **COPYRIGHT HOLDER**：是拥有版权的实体的全名。如果拥有实体是私人则写上自己的名字即可。
+1. **YEAR**：是版权使用的年份。如果你在2015年申请版权（当你写作品时会自动发生），请在2015年提交。有些人喜欢设定一系列年份（即2015-2020年）——这没有必要。
+2. **COPYRIGHT HOLDER**：是拥有版权的实体的全名。如果拥有实体是私人则写上自己的名字即可。
 
 ## 生成 MIT
 
@@ -85,6 +87,8 @@ Github是支持半自动化的方式创建LICENSE的。
 #### 选择MIT协议
 
 ![选择MIT协议](./license/Snipaste_2023-05-30_17-47-09.png)
+
+
 
 ### Npm Lib
 
@@ -110,8 +114,8 @@ license [license] -n <COPYRIGHT HOLDER> -y <YEAR>
 
 ## 参考
 
--   [LICENSE WIKI](https://zh.wikipedia.org/zh-cn/%E6%8E%88%E6%AC%8A_\(%E6%B3%95%E5%BE%8B\))
--   [Open Source License](https://opensource.org/licenses/)
--   [开源授权 WIKI](https://zh.wikipedia.org/wiki/%E9%96%8B%E6%BA%90%E6%8E%88%E6%AC%8A)
--   [description-of-popular-software-licenses](https://web.archive.org/web/20110503183702/http://pbagwl.com/post/5078147450/description-of-popular-software-licenses)
--   [What should be written in MIT license (year, full name)?](https://opensource.stackexchange.com/questions/1522/what-should-be-written-in-mit-license-year-full-name)
+- [LICENSE WIKI](https://zh.wikipedia.org/zh-cn/%E6%8E%88%E6%AC%8A_(%E6%B3%95%E5%BE%8B))
+- [Open Source License](https://opensource.org/licenses/)
+- [开源授权 WIKI](https://zh.wikipedia.org/wiki/%E9%96%8B%E6%BA%90%E6%8E%88%E6%AC%8A)
+- [description-of-popular-software-licenses](https://web.archive.org/web/20110503183702/http://pbagwl.com/post/5078147450/description-of-popular-software-licenses)
+- [What should be written in MIT license (year, full name)?](https://opensource.stackexchange.com/questions/1522/what-should-be-written-in-mit-license-year-full-name)
