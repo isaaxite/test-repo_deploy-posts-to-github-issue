@@ -1,5 +1,8 @@
 {
 	"dependencies": {
 		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue"
+	},
+	"devDependencies": {
+		"standard-version": "^9.5.0"
 	}
 }
