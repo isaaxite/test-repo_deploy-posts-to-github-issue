@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -8,3 +8,6 @@ dependencies:
   deploy-posts-to-github-issue:
     specifier: link:../deploy-posts-to-github-issue
     version: link:../deploy-posts-to-github-issue
+  isubo:
+    specifier: link:/home/isaac/workspace/deploy-posts-to-github-issue
+    version: link:../../..
