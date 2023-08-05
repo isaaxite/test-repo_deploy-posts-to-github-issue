@@ -1,8 +1,10 @@
 owner: isaaxite
 repo: test-repo_deploy-posts-to-github-issue
 token: $GITHUB_TOKEN
-post_dir: posts
-prefix: https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/blob/master/posts/
 asset_dir: '{filename}'
-types: 
+types:
   - image
+source_dir: >-
+  /home/isaac/workspace/deploy-posts-to-github-issue/__test__/temp/git_repo_91198105130/source
+branch: master
+push_asset: prompt
