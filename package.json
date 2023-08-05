@@ -1,5 +1,6 @@
 {
 	"dependencies": {
-		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue"
+		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue",
+		"isubo": "link:/home/isaac/workspace/deploy-posts-to-github-issue"
 	}
 }
