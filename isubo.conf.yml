@@ -44,7 +44,7 @@ token: $GITHUB_TOKEN
 ## Default "source/"
 ## e.g.
 ## source_dir: "source/"
-source_dir: ensource/
+source_dir: source/
 
 
 # Link Format
