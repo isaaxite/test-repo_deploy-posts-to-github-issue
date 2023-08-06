@@ -1,6 +1,7 @@
 {
 	"dependencies": {
-		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue"
+		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue",
+		"isubo": "0.0.11-alpha.13"
 	},
 	"devDependencies": {
 		"standard-version": "^9.5.0"
