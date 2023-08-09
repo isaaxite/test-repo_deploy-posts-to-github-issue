@@ -1,7 +1,11 @@
 {
+	"standard-version": {
+		"scripts": {
+			"posttag": "git push origin HEAD && git push --tags"
+		}
+	},
 	"dependencies": {
-		"deploy-posts-to-github-issue": "link:../deploy-posts-to-github-issue",
-		"isubo": "0.0.11-alpha.13"
+		"isubo": "0.0.11"
 	},
 	"devDependencies": {
 		"@isubo-org/version": "0.0.2-alpha.6",
