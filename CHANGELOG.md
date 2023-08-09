@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2-beta.5](https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/compare/v0.0.2-beta.4...v0.0.2-beta.5) (2023-08-09)
+
 ### [0.0.2-beta.4](https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/compare/v0.0.2-beta.3...v0.0.2-beta.4) (2023-08-09)
 
 ### [0.0.2-beta.3](https://github.com/isaaxite/test-repo_deploy-posts-to-github-issue/compare/v0.0.2-beta.2...v0.0.2-beta.3) (2023-08-09)
