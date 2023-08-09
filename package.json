@@ -4,7 +4,8 @@
 		"isubo": "0.0.11-alpha.13"
 	},
 	"devDependencies": {
+		"@isubo-org/version": "0.0.2-alpha.6",
 		"standard-version": "^9.5.0"
 	},
-	"version": "0.0.2-alpha.1"
+	"version": "0.0.2-alpha.2"
 }
