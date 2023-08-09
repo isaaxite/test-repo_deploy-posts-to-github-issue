@@ -1,7 +1,11 @@
 {
+	"scripts": {
+		"build": "echo 'build",
+		"post-version": "git push origin HEAD && git push --tags"
+	},
 	"standard-version": {
 		"scripts": {
-			"posttag": "git push origin HEAD && git push --tags"
+			"posttag": "npm run post-version"
 		}
 	},
 	"dependencies": {
