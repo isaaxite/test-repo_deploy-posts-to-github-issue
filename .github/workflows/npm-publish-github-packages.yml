@@ -32,7 +32,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm i
-      - run: npm login --registry=https://npm.pkg.github.com --scope=issaxite --always-auth
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
