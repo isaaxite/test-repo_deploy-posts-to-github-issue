@@ -9,7 +9,7 @@ dependencies:
     specifier: link:../deploy-posts-to-github-issue
     version: link:../deploy-posts-to-github-issue
   isubo:
-    specifier: 0.0.11-alpha.13
+    specifier: link:/home/isaac/workspace/deploy-posts-to-github-issue
     version: 0.0.11-alpha.13
 
 devDependencies:
